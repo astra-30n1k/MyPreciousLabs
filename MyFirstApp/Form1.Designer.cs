@@ -1,6 +1,6 @@
 ﻿namespace MyFirstApp
 {
-    partial class Form1
+    partial class MForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -33,22 +33,22 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(324, 196);
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 33);
             this.button1.TabIndex = 0;
             this.button1.Text = "Кнопка";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.bShow_Click);
             // 
-            // Form1
+            // MForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(120, 65);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MForm";
+            this.Text = "MForm";
             this.ResumeLayout(false);
 
         }

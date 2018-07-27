@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace MyFirstApp
 {
-    public partial class Form1 : Form
+    public partial class MForm : Form
     {
-        public Form1()
+        public MForm()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void bShow_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello World!!!");
         }
